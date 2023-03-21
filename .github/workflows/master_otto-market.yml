@@ -8,6 +8,8 @@ on:
     branches:
       - master
   workflow_dispatch:
+  
+az webapp config appsettings set --resource-group <otto> --name <otto-market> --settings WEBSITE_RUN_FROM_PACKAGE="1"bash: otto: No such file or directory
 
 jobs:
   build:
